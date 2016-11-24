@@ -1,0 +1,78 @@
+#! /bin/sh
+ 
+echo "The file a5p2-runner is:"
+echo ============================================================
+cat A5P2-runner
+echo ============================================================
+ 
+printf "\n\n\n"
+ 
+echo "a5p2.c is:"
+echo ============================================================
+cat a5p2.c
+echo ============================================================
+ 
+printf "\n\n\n"
+ 
+echo "compile: gcc -Wall -std=gnu99 a5p2.c -o a5p2"
+gcc -Wall -std=gnu99 a5p2.c -o a5p2
+ 
+printf "\n\n\n"
+ 
+echo "Test case #1: 5 r"
+echo "a5p2"
+a5p2 
+ 
+printf "\n\n\n"
+ 
+echo "Test case #2: 10 l"
+echo "a5p2"
+a5p2 
+
+printf "\n\n\n"
+
+echo "Test case #3: 15 c"
+echo "a5p2"
+a5p2 
+
+printf "\n\n\n"
+
+echo "Test case #4: 25 l"
+echo "a5p2"
+a5p2
+
+printf "\n\n\n"
+
+echo "Test case #5: 30 r"
+echo "a5p2"
+a5p2
+
+printf "\n\n\n"
+
+echo "Test case #6: 1 l"
+echo "a5p2"
+a5p2
+
+printf "\n\n\n"
+
+echo "Test case #7: 0 r"
+echo "a5p2"
+a5p2
+
+printf "\n\n\n"
+
+echo "Test case #8: 10 s"
+echo "a5p2"
+a5p2
+
+printf "\n\n\n"
+
+echo "Test case #9: & r"
+echo "a5p2"
+a5p2
+
+printf "\n\n\n"
+
+echo "Test case #10: 10 *"
+echo "a5p2"
+a5p2
