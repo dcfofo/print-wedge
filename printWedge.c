@@ -2,7 +2,7 @@
  * File: a5p2.c 
  * Author: Danny Ford 100101912
  * Date: 2015/10/07
- * Version: 1.0
+ * Version: 1.1
  *
  * Purpose: This program takes in two parameters (size and type) 
  * and uses the printWedge() function to output a triangle according
